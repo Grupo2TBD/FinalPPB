@@ -1,0 +1,26 @@
+BD
+TABLA USUARIO:
+-Elimine la columna ubicacion-user
+TABLA TAG: 
+- elimine el id del usuario creador
+TABLA PERMISO_FOTOGRAFIA
+- Elimine la columna cansharephoto
+- Agregue canfavoritephoto
+TABLA PERMISO_ALBUM
+- elimine cansharealbum 
+- agrege canfavoritealbum 
+TABLA LOCALIZACION
+- Eliminada
+TABLA FOTOGRAFIA
+- Agregue cantidad_comentarios,
+- ELIMINE cantidad_compartidos
+- Agrege punto
+- id exif
+TABLA CAMARA
+- ELIMINE TIPO GUARDADO CAMARA
+- CAMBIE EL TIPO DE DATO A megapixeles_camara, zoom_camara, tamano_pantalla_camara
+TABLA EXIF
+- ELIMINE EL ID DE LA FOTO, CAMARA
+- CAMBIE EL TIPO DE DATO a largo_foco 
+COMENTARIO_ALBUM
+-Tabla eliminada

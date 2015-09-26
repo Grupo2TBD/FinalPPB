@@ -1,0 +1,39 @@
+1->Login
++Descripción:
+Angular recibe parametros y los envía a Java.
+Se comprueba si email está en la base de datos y si coincide con la contraseña.
+Se responde "si" o "no" 
+	SI: Angular redirige a página de inicio
+	NO: Angular redirige a la página de Login e indica el error
+FUNCIONES:
+-LoginService(String mail, String pass)->JSON
+PENDIENTE:
+-Encriptar contraseña (se debe añadir jar)
+-Recordar enviar id de usuario
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2->Registro
++Descripción:
+Angular recibe parametros y los envía a Java
+Se comprueba si alias y mail no se encuentran registrados en la base de datos
+Se responde "si" o "no"
+	SI: Angular redirige a página de bienvenida
+	    Se insertan parametros de usuario
+	    Se insertan fotografias de perfil y portada predefinidas (permisos restringidos)(pendiente)
+	    Se crea album para alojar fotografias por defecto (permisos restringidos) (pendiente)
+	NO: Angular redirige a página de registro indicando error.
+FUNCIONES:
+-Registro()->JSON
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+3->Vista Fotografía
++Descripción
+Se muestra imagen en tamaño completo señalando las siguientes opciones:
+Siguiente (pendiente)
+Descargar
+Compartir (pendiente)
+Borrar
+Rotar?
+FUNCIONES:
+descargarFotografia(id)->Response
+
